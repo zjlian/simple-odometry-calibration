@@ -1,3 +1,4 @@
+%% 里程计标定参考 https://www.guyuehome.com/34492
 function main()
     truth2d = common.LoadCSV("dataset/truth2d.csv");
     odom2d = common.LoadCSV("dataset/odom2d.csv");
